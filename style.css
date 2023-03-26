@@ -1,3 +1,23 @@
 .main {
-    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.element {
+    width: 20px;
+    height: 20px;
+    border: 1px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    font-size: large;
+    margin-top: 50px;
+}
+
+.element:hover {
+    color: red;
+    width: 30px;
+    height: 30px;
 }
